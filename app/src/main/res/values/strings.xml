@@ -2,4 +2,5 @@
     <string name="app_name">App1</string>
     <string name="descriptor">ban anime</string>
     <string name="electricboogaloo">ELECTRICBOOGALOO</string>
+    <string name="android_studio_wants_this_so_fuck_android_string_dialog_alert_title">android studio wants this so fuck @android:string/dialog_alert_title</string>
 </resources>
