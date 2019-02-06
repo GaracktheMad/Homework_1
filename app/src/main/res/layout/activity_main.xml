@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/sampleText"
+        android:layout_width="254dp"
+        android:layout_height="231dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginLeft="78dp"
+        android:layout_marginTop="493dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginRight="79dp"
+        android:layout_marginBottom="35dp"
+        android:background="@android:color/holo_green_light"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="textMultiLine"
+        android:lineSpacingExtra="8sp"
+        android:text="@string/i_m_peter_vukas_and_coding_is_pain"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="36sp"
+        android:textStyle="bold|italic"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="263dp"
+        android:layout_height="268dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginBottom="85dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/sampleText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/libertyprimepostersmall"
+        android:contentDescription="@string/descriptor" />
+
+</android.support.constraint.ConstraintLayout>
